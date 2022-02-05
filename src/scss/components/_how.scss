@@ -1,0 +1,38 @@
+.how {
+  &__inner {
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 83px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__left {
+    max-width: 1000px;
+  }
+
+  &__left-p {
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: -0.015em;
+    margin-bottom: 25px;
+  }
+
+  &__left-p-span {
+    background: var(--pink);
+    padding: 6px 8px;
+    border-radius: 30px;
+  }
+
+  &__right {
+  }
+
+  &__right-img {
+  }
+}
