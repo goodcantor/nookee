@@ -1,0 +1,46 @@
+.platform {
+  &__inner {
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 63px;
+  }
+
+  &__content {
+    position: relative;
+  }
+
+  &__left {
+    max-width: 740px;
+  }
+
+  &__p1 {
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: -0.015em;
+    margin-bottom: 25px;
+  }
+
+  &__p1-span {
+    padding: 6px 10px;
+    background: var(--pink);
+    border-radius: 50px;
+  }
+
+  &__p2 {
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: -0.015em;
+  }
+
+  &__right {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    z-index: -1;
+  }
+
+  &__right-img {
+  }
+}

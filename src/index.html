@@ -13,15 +13,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600&display=swap"
       rel="stylesheet"
     />
   </head>
 
   <body>
     <div class="site-container">
-      @include('partials/header.html') @include('partials/footer.html')
+      @include('partials/header.html')
       @include('partials/home.html')
+      <div class="height"></div>
+      @include('partials/platform.html')
+      <div class="height"></div>
+      @include('partials/footer.html')
     </div>
 
     <script src="js/vendor.js"></script>
