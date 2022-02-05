@@ -30,7 +30,8 @@ h1 {
   pointer-events: none; }
 
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
 
 *,
 *::before,

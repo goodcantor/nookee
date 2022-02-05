@@ -1,0 +1,41 @@
+.join {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__left {
+  }
+
+  &__left-img {
+    max-width: 670px;
+  }
+
+  &__right {
+    max-width: 670px;
+  }
+
+  &__right-p {
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: -0.015em;
+    margin-bottom: 25px;
+  }
+
+  &__right-btn {
+    display: inline-block;
+    padding: 34px 74px;
+    border-radius: 50px;
+    background: var(--blue);
+    color: var(--white);
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: -0.015em;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    &:hover {
+      background: var(--blue05);
+    }
+  }
+}

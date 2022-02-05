@@ -49,6 +49,10 @@
     padding: 30px 120px;
     background: var(--white);
     border-radius: 50px;
+    transition: all 0.3s ease;
+    &:hover {
+      background: darken(white, 20%);
+    }
   }
 
   &__content-right {
