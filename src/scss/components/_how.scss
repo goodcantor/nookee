@@ -1,4 +1,6 @@
 .how {
+  padding: 120px 0 20px 0;
+  background: url("../img/bghow.png") center/cover no-repeat;
   &__inner {
   }
 
@@ -14,18 +16,25 @@
   }
 
   &__left {
-    max-width: 1000px;
+    width: 100%;
   }
 
   &__left-p {
-    font-size: 35px;
-    line-height: 42px;
-    letter-spacing: -0.015em;
-    margin-bottom: 25px;
+    font-size: 28px;
+    line-height: 120%;
+    margin-bottom: 100px;
+    max-width: 500px;
+    &:nth-child(2) {
+      margin: auto;
+      margin-bottom: 100px;
+    }
+    &:nth-child(3) {
+      margin-left: auto;
+    }
   }
 
   &__left-p-span {
-    background: var(--pink);
+    background: var(--pink05);
     padding: 6px 8px;
     border-radius: 30px;
   }

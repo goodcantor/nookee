@@ -1,0 +1,49 @@
+.price {
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+    background: url("../img/bgprice.png") bottom right/contain no-repeat;
+    padding-bottom: 60px;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 45px;
+    text-align: center;
+  }
+
+  &__card {
+    padding: 40px 60px;
+    max-width: 820px;
+    width: 100%;
+    background: rgba(7, 23, 230, 0.25);
+    backdrop-filter: blur(6px);
+    border-radius: 50px;
+  }
+
+  &__card-title {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  &__card-ul {
+  }
+
+  &__card-li {
+    list-style: inside;
+    font-size: 28px;
+    line-height: 120%;
+    margin-bottom: 8px;
+  }
+}
+
+.container {
+}
