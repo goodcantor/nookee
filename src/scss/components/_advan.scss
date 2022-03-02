@@ -34,3 +34,33 @@
     line-height: 120%;
   }
 }
+
+@include px768 {
+  .advan {
+    padding: 60px 0;
+    &__inner {
+    }
+
+    &__title {
+      font-size: 40px;
+      line-height: 48px;
+    }
+
+    &__content {
+      justify-content: space-around;
+    }
+
+    &__box {
+      max-width: 240px;
+    }
+
+    &__box-img {
+      max-height: 82px;
+    }
+
+    &__box-p {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+}

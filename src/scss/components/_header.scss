@@ -105,9 +105,10 @@
   transition: all 0.6s ease;
 }
 
-@include px600 {
+@include px800 {
   .header {
     &__inner {
+      height: 60px;
     }
 
     &__logo-wrap {

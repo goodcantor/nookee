@@ -130,6 +130,70 @@
   }
 }
 
+@include px768 {
+  .home {
+    &__inner {
+    }
+
+    &__text {
+    }
+
+    &__title {
+      font-size: 40px;
+    }
+
+    &__p {
+      font-size: 25px;
+      &::before {
+        width: 300px;
+      }
+    }
+
+    &__content {
+      gap: 8px;
+    }
+
+    &__content-left {
+      max-width: 320px;
+      height: 211px;
+
+      &::before {
+        bottom: -120px;
+        width: 340px;
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+
+    &__content-btn {
+      padding: 14px 32px;
+      font-size: 20px;
+    }
+
+    &__content-right {
+      max-width: 320px;
+      height: 211px;
+      &::before {
+        width: 340px;
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+
+    &__scroll {
+    }
+
+    &__scroll-arrow {
+    }
+
+    &__scroll-p {
+    }
+  }
+
+  .container {
+  }
+}
+
 @keyframes round {
   from {
     top: -5px;

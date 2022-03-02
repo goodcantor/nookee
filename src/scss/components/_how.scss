@@ -45,3 +45,30 @@
   &__right-img {
   }
 }
+
+@include px768 {
+  .how {
+    padding: 60px 0;
+    &__inner {
+    }
+
+    &__title {
+      font-size: 40px;
+    }
+
+    &__content {
+    }
+
+    &__left {
+    }
+
+    &__left-p {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 60px;
+    }
+
+    &__left-p-span {
+    }
+  }
+}

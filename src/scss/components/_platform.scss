@@ -57,3 +57,43 @@
   &__right-img {
   }
 }
+
+@include px768 {
+  .platform {
+    padding: 60px 0;
+
+    &__inner {
+    }
+
+    &__title {
+      font-size: 40px;
+    }
+
+    &__content {
+    }
+
+    &__left {
+    }
+
+    &__p1 {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 60px;
+    }
+
+    &__p1-span {
+    }
+
+    &__p2 {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 60px;
+    }
+
+    &__p3 {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 60px;
+    }
+  }
+}
