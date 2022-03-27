@@ -1,37 +1,50 @@
 .platform {
+  background: url("../img/bgabout.png") center/cover no-repeat;
+  padding: 120px 0;
+
   &__inner {
   }
 
   &__title {
+    font-size: var(--sectionTitle);
+    color: var(--black);
     text-align: center;
-    margin-bottom: 63px;
+    margin-bottom: 59px;
   }
 
   &__content {
-    position: relative;
   }
 
   &__left {
-    max-width: 740px;
+    color: var(--black);
   }
 
   &__p1 {
-    font-size: 35px;
-    line-height: 42px;
-    letter-spacing: -0.015em;
-    margin-bottom: 25px;
+    font-size: 28px;
+    line-height: 120%;
+    margin-bottom: 100px;
+    max-width: 580px;
   }
 
   &__p1-span {
     padding: 6px 10px;
-    background: var(--pink);
+    background: var(--pink05);
     border-radius: 50px;
   }
 
   &__p2 {
-    font-size: 35px;
-    line-height: 42px;
-    letter-spacing: -0.015em;
+    font-size: 28px;
+    line-height: 120%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    max-width: 580px;
+  }
+  &__p3 {
+    font-size: 28px;
+    line-height: 120%;
+    margin-left: auto;
+    margin-bottom: 100px;
+    max-width: 580px;
   }
 
   &__right {
@@ -42,5 +55,82 @@
   }
 
   &__right-img {
+  }
+}
+
+@include px768 {
+  .platform {
+    padding: 60px 0;
+
+    &__inner {
+    }
+
+    &__title {
+      font-size: 40px;
+    }
+
+    &__content {
+    }
+
+    &__left {
+    }
+
+    &__p1 {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 60px;
+    }
+
+    &__p1-span {
+    }
+
+    &__p2 {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 60px;
+    }
+
+    &__p3 {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 60px;
+    }
+  }
+}
+
+@include px360 {
+  .platform {
+    padding: 45px 0;
+
+    &__inner {
+    }
+
+    &__title {
+      font-size: 25px;
+      margin-bottom: 35px;
+    }
+
+    &__content {
+    }
+
+    &__left {
+    }
+
+    &__p1 {
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+
+    &__p1-span {
+    }
+
+    &__p2 {
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+
+    &__p3 {
+      font-size: 14px;
+    }
   }
 }

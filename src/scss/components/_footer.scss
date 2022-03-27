@@ -20,9 +20,9 @@
   }
 
   &__menu-a {
-    padding: 10px;
-    font-size: 30px;
-    line-height: 36px;
+    padding: 8px;
+    font-size: 24px;
+    line-height: 120%;
     transition: all 0.3s ease;
     &:hover {
       color: darken(white, 20%);
@@ -47,6 +47,42 @@
 
     &:hover {
       color: darken(white, 20%);
+    }
+  }
+}
+
+@include px768 {
+  .footer {
+    &__inner {
+      padding: 60px 0;
+    }
+
+    &__logo {
+      max-width: 100px;
+    }
+
+    &__menu {
+      gap: 40px;
+    }
+
+    &__menu-a {
+      font-size: 18px;
+      line-height: 22px;
+      padding: 6px;
+    }
+
+    &__c {
+      font-size: 14px;
+      line-height: 120%;
+    }
+
+    &__conf {
+      gap: 60px;
+    }
+
+    &__conf-a {
+      font-size: 14px;
+      line-height: 120%;
     }
   }
 }

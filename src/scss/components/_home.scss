@@ -1,5 +1,6 @@
 .home {
   padding-top: 120px;
+  margin-bottom: 30px;
 
   &__inner {
   }
@@ -45,7 +46,7 @@
   }
 
   &__content-left {
-    background: url("../img/homeleft.jpg") center/cover no-repeat;
+    background: url("../img/homeleft.png") center/cover no-repeat;
     max-width: 518px;
     width: 100%;
     height: 348px;
@@ -126,6 +127,141 @@
   &__scroll-p {
     font-weight: 600;
     font-size: 20px;
+  }
+}
+
+@include px768 {
+  .home {
+    &__inner {
+    }
+
+    &__text {
+    }
+
+    &__title {
+      font-size: 40px;
+    }
+
+    &__p {
+      font-size: 25px;
+      &::before {
+        width: 300px;
+      }
+    }
+
+    &__content {
+      gap: 8px;
+    }
+
+    &__content-left {
+      max-width: 320px;
+      height: 211px;
+
+      &::before {
+        bottom: -120px;
+        width: 340px;
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+
+    &__content-btn {
+      padding: 14px 32px;
+      font-size: 20px;
+    }
+
+    &__content-right {
+      max-width: 320px;
+      height: 211px;
+      &::before {
+        width: 340px;
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+
+    &__scroll {
+    }
+
+    &__scroll-arrow {
+    }
+
+    &__scroll-p {
+    }
+  }
+
+  .container {
+  }
+}
+
+@include px360 {
+  .home {
+    &__inner {
+    }
+
+    &__text {
+      margin-bottom: 170px;
+    }
+
+    &__title {
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+
+    &__p {
+      font-size: 20px;
+      &::before {
+        top: 48px;
+        width: 210px;
+      }
+    }
+
+    &__content {
+      gap: 150px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+
+    &__content-left {
+      max-width: 320px;
+      height: 211px;
+
+      &::before {
+        bottom: 200px;
+        width: 340px;
+        font-size: 14px;
+        line-height: 22px;
+        left: -25px;
+      }
+    }
+
+    &__content-btn {
+      padding: 14px 32px;
+      font-size: 20px;
+    }
+
+    &__content-right {
+      max-width: 320px;
+      height: 211px;
+      &::before {
+        width: 340px;
+        font-size: 18px;
+        line-height: 22px;
+        font-size: 14px;
+        right: -25px;
+      }
+    }
+
+    &__scroll {
+    }
+
+    &__scroll-arrow {
+      transform: scale(0.8);
+    }
+
+    &__scroll-p {
+      font-size: 13px;
+    }
   }
 }
 

@@ -105,9 +105,10 @@
   transition: all 0.6s ease;
 }
 
-@include px600 {
+@include px800 {
   .header {
     &__inner {
+      height: 60px;
     }
 
     &__logo-wrap {
@@ -125,7 +126,8 @@
     }
 
     &__nav {
-      background: var(--pink);
+      background: rgba(7, 23, 230, 0.6);
+      backdrop-filter: blur(30px);
       transition: all 0.5s ease;
       position: absolute;
       top: 0%;
