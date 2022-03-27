@@ -97,3 +97,53 @@
     }
   }
 }
+
+@include px360 {
+  .plus {
+    padding: 0px 0;
+    margin-top: -60px;
+    &__inner {
+    }
+
+    &__title {
+      font-size: 25px;
+      margin-bottom: 25px;
+    }
+
+    &__content {
+      gap: 24px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &__left {
+      flex: 1 1 100%;
+      padding: 40px 28px;
+      max-width: 100%;
+      border-radius: 16px;
+      padding: 25px 20px;
+    }
+
+    &__box {
+    }
+
+    &__box-title {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    &__box-p {
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 18px;
+    }
+
+    &__right {
+      flex: 1 1 100%;
+      padding: 40px 28px;
+      max-width: 100%;
+      border-radius: 16px;
+      padding: 25px 20px;
+    }
+  }
+}

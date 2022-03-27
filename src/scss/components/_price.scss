@@ -116,3 +116,55 @@
     }
   }
 }
+
+@include px360 {
+  .price {
+    &__inner {
+      background: url("../img/bgprice.png") bottom right/cover no-repeat;
+    }
+
+    &__title {
+      font-size: 25px;
+      line-height: 30px;
+    }
+
+    &__card {
+      border-radius: 30px;
+    }
+
+    &__card-title {
+      font-size: 18px;
+      line-height: 20px;
+      margin-bottom: 15px;
+    }
+
+    &__card-content {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &__card-ul {
+    }
+
+    &__card-li {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    &__card-price {
+      font-size: 22px;
+      line-height: 30px;
+      &::before {
+        content: "";
+        position: relative;
+        left: -8px;
+        top: 42px;
+        display: block;
+        width: 84px;
+        height: 6px;
+        border-radius: 4px;
+        background-color: var(--white);
+      }
+    }
+  }
+}

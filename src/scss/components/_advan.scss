@@ -37,13 +37,13 @@
 
 @include px768 {
   .advan {
-    padding: 60px 0;
+    padding: 45px 0;
     &__inner {
     }
 
     &__title {
-      font-size: 40px;
-      line-height: 48px;
+      font-size: 25px;
+      margin-bottom: 35px;
     }
 
     &__content {
@@ -52,15 +52,18 @@
 
     &__box {
       max-width: 240px;
+      margin-bottom: 65px;
     }
 
     &__box-img {
-      max-height: 82px;
+      max-height: 65px;
+      margin-bottom: 20px;
     }
 
     &__box-p {
-      font-size: 18px;
-      line-height: 22px;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
     }
   }
 }

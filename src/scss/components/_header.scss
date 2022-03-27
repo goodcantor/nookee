@@ -126,7 +126,8 @@
     }
 
     &__nav {
-      background: var(--pink);
+      background: rgba(7, 23, 230, 0.6);
+      backdrop-filter: blur(30px);
       transition: all 0.5s ease;
       position: absolute;
       top: 0%;

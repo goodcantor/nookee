@@ -39,7 +39,7 @@
   }
 }
 @mixin px360 {
-  @media only screen and (max-width : 360px) {
+  @media only screen and (max-width : 380px) {
     @content;
   }
 }

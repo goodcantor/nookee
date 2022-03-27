@@ -97,3 +97,40 @@
     }
   }
 }
+
+@include px360 {
+  .platform {
+    padding: 45px 0;
+
+    &__inner {
+    }
+
+    &__title {
+      font-size: 25px;
+      margin-bottom: 35px;
+    }
+
+    &__content {
+    }
+
+    &__left {
+    }
+
+    &__p1 {
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+
+    &__p1-span {
+    }
+
+    &__p2 {
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+
+    &__p3 {
+      font-size: 14px;
+    }
+  }
+}

@@ -194,6 +194,77 @@
   }
 }
 
+@include px360 {
+  .home {
+    &__inner {
+    }
+
+    &__text {
+      margin-bottom: 170px;
+    }
+
+    &__title {
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+
+    &__p {
+      font-size: 20px;
+      &::before {
+        top: 48px;
+        width: 210px;
+      }
+    }
+
+    &__content {
+      gap: 150px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+
+    &__content-left {
+      max-width: 320px;
+      height: 211px;
+
+      &::before {
+        bottom: 200px;
+        width: 340px;
+        font-size: 14px;
+        line-height: 22px;
+        left: -25px;
+      }
+    }
+
+    &__content-btn {
+      padding: 14px 32px;
+      font-size: 20px;
+    }
+
+    &__content-right {
+      max-width: 320px;
+      height: 211px;
+      &::before {
+        width: 340px;
+        font-size: 18px;
+        line-height: 22px;
+        font-size: 14px;
+        right: -25px;
+      }
+    }
+
+    &__scroll {
+    }
+
+    &__scroll-arrow {
+      transform: scale(0.8);
+    }
+
+    &__scroll-p {
+      font-size: 13px;
+    }
+  }
+}
+
 @keyframes round {
   from {
     top: -5px;
